@@ -16,7 +16,7 @@ bitmex_ccxt = ccxt.bitmex({
 
 summary = bitmex_ccxt.privateGetUserWalletSummary()
 
-client = bitmex.bitmex(test=False, api_key="aG1jI-0YU0B1r8h4ANVK1V4N", api_secret="Kb45KMlK6xLkfukByYNbeUIzdG-UWCfhaDhDqWB71-Juv375")
+client = bitmex.bitmex(test=False, api_key="", api_secret="")
 
 open_size = 0
 
