@@ -12,12 +12,13 @@ Cloud9 Python3.6.5
 ## 使い方
 
 ```pip install -r requirements.txt```
-で環境のセットアップができます。
+でセットアップできます。
 
 ```trade_saving.py```
 
 でSQLiteファイルの作成ができます。上のpythonファイルの設定によって任意の間隔で価格情報を保存できます。
 ```data_to_short_csv.py```
+
 で直近360本のOHLCをCSVにしたものが常時更新されます。
 
 scal_test.pyはAPIKeyを入力することで実際に注文まで行えますが、必ず損失を出すロジックになっていますので、ボットを動かしたい場合には書き換えてください。
