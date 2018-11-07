@@ -1,7 +1,7 @@
 # BitmexのOrderBookをWebSocketで受信しSQLiteに保存
 
 ## 概要
-Bitmexの板情報(order book)は多くがWebSocketで受信可能です。
+Bitmexの板情報(order book他)はその多くがWebSocketで受信可能です。
 Pythonのモジュールも公開されており、それを利用してSQLiteで保存するスクリプトを作成しました。
 また、直近n本のCSVへの保存と、使用例としてシステムトレードの例も書きましたが、こちらのロジックはスキャルピングの注文のやり方の例であり、実際の運用では100%損失を出します。
 
