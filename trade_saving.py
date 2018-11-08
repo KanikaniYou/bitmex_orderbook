@@ -6,8 +6,6 @@ import datetime
 import sqlite3
 
 
-# API = 'ZHVnSMpBwfQuXffB9HwcV7PO'
-# SECRET = 'Tpl9yMM_27sXONxdiblrfploRWFaziEvadSwq82fyk32Zu12'
 
 
 class MyBitMEXWebsocket(BitMEXWebSocket):  #BitMEXWebSocketをオーバーライド
